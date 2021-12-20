@@ -1,14 +1,14 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: ibex-learning-center-3
+  name: ibex-learning-center-4
 spec:
   portal:
     password: ibex-workshop
     # registration:
     #   type: anonymous
   workshops:
-  - name: ibex-learning-center-workshop-3
+  - name: ibex-learning-center-workshop-4
     capacity: 1
     expires: 60m
     orphaned: 5m
