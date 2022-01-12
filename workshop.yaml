@@ -1,4 +1,4 @@
-apiVersion: training.eduk8s.io/v1alpha2
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
   name: ibex-learning-center-workshop
@@ -8,7 +8,7 @@ spec:
   # vendor: vinalhaven.io
   difficulty: beginner
   duration: 15m
-  url: https://github.com/bmullan-pivotal/lab-markdown-sample
+  url: https://github.com/tfynes-pivotal/lab-markdown-sample
   content:
     image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:fd4a98feea12307c86f1e9c5c0e9b0ac6e10d04b980b43aec72d764e770710fe
     #image: quay.io/eduk8s/lab-markdown-sample:master
