@@ -12,7 +12,7 @@ spec:
   content:
     image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:fd4a98feea12307c86f1e9c5c0e9b0ac6e10d04b980b43aec72d764e770710fe
     #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/bmullan-pivotal/lab-markdown-sample
+    files: github.com/tfynes-pivotal/lab-markdown-sample
   session:
     namespaces:
       budget: small
